@@ -1,0 +1,109 @@
+export default function Pricing() {
+  return (
+    <section id="pricing" className="py-20 px-4 bg-white">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-slate-900 mb-4">
+            Simple, Transparent Pricing
+          </h2>
+          <p className="text-xl text-slate-600">
+            One plan. No hidden fees. Cancel anytime.
+          </p>
+        </div>
+
+        <div className="max-w-md mx-auto">
+          <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-8 rounded-2xl shadow-2xl border border-amber-500">
+            {/* Badge */}
+            <div className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white text-sm font-semibold px-4 py-1 rounded-full mb-6">
+              Federal Tracking
+            </div>
+
+            {/* Price */}
+            <div className="mb-6">
+              <div className="flex items-baseline gap-2">
+                <span className="text-5xl font-bold text-white">$100</span>
+                <span className="text-xl text-slate-400">/month</span>
+              </div>
+              <p className="text-slate-400 mt-2">vs $20,000+/year for enterprise tools</p>
+            </div>
+
+            {/* Features */}
+            <div className="space-y-4 mb-8">
+              <div className="flex items-start gap-3">
+                <svg className="w-6 h-6 text-amber-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <div>
+                  <p className="text-white font-medium">Unlimited bill tracking</p>
+                  <p className="text-sm text-slate-400">Track as many bills as you need</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <svg className="w-6 h-6 text-amber-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <div>
+                  <p className="text-white font-medium">Daily email alerts</p>
+                  <p className="text-sm text-slate-400">Delivered to your inbox every morning</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <svg className="w-6 h-6 text-amber-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <div>
+                  <p className="text-white font-medium">Keyword matching</p>
+                  <p className="text-sm text-slate-400">Set unlimited custom keywords</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <svg className="w-6 h-6 text-amber-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <div>
+                  <p className="text-white font-medium">Real-time status updates</p>
+                  <p className="text-sm text-slate-400">Know when bills move through Congress</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <svg className="w-6 h-6 text-amber-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <div>
+                  <p className="text-white font-medium">14-day free trial</p>
+                  <p className="text-sm text-slate-400">No credit card required</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <svg className="w-6 h-6 text-amber-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <div>
+                  <p className="text-white font-medium">Cancel anytime</p>
+                  <p className="text-sm text-slate-400">No long-term contracts</p>
+                </div>
+              </div>
+            </div>
+
+            {/* CTA */}
+            <a
+              href="#waitlist"
+              className="block w-full bg-gradient-to-r from-amber-500 to-amber-600 text-white text-center px-6 py-4 rounded-lg font-semibold text-lg hover:from-amber-600 hover:to-amber-700 transition-all shadow-lg hover:shadow-xl"
+            >
+              Join Waitlist
+            </a>
+
+            <p className="text-center text-sm text-slate-400 mt-4">
+              Be among the first 20 customers and get <span className="text-amber-500 font-semibold">50% off for 6 months</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

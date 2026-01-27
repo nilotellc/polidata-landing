@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer ring -->
+  <circle cx="32" cy="32" r="28" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  
+  <!-- Middle ring -->
+  <circle cx="32" cy="32" r="20" fill="none" stroke="#fbbf24" stroke-width="3"/>
+  
+  <!-- Inner ring -->
+  <circle cx="32" cy="32" r="12" fill="none" stroke="#fcd34d" stroke-width="3"/>
+  
+  <!-- Center dot with gradient -->
+  <defs>
+    <radialGradient id="centerGradient">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="6" fill="url(#centerGradient)"/>
+</svg>
