@@ -1,4 +1,29 @@
+'use client';
+
+import { useEffect } from 'react';
+
 export default function WaitlistForm() {
+  useEffect(() => {
+    // Load Tally script
+    const script = document.createElement('script');
+    script.src = 'https://tally.so/widgets/embed.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    script.onload = () => {
+      if (window.Tally) {
+        window.Tally.loadEmbeds();
+      }
+    };
+
+    return () => {
+      // Cleanup
+      if (script.parentNode) {
+        script.parentNode.removeChild(script);
+      }
+    };
+  }, []);
+
   return (
     <section id="waitlist" className="py-20 px-4 bg-slate-50">
       <div className="max-w-4xl mx-auto">
@@ -28,4 +53,13 @@ export default function WaitlistForm() {
       </div>
     </section>
   );
+}
+
+// TypeScript definition for Tally
+declare global {
+  interface Window {
+    Tally?: {
+      loadEmbeds: () => void;
+    };
+  }
 }
