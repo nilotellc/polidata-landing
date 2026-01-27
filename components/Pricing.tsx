@@ -24,11 +24,22 @@ export default function Pricing() {
                 <span className="text-5xl font-bold text-white">$100</span>
                 <span className="text-xl text-slate-400">/month</span>
               </div>
-              <p className="text-slate-400 mt-2">vs $20,000+/year for enterprise tools</p>
+              <p className="text-slate-300 mt-1 font-medium">per organization</p>
+              <p className="text-slate-400 text-sm mt-1">vs $20,000+/year for enterprise tools</p>
             </div>
 
             {/* Features */}
             <div className="space-y-4 mb-8">
+              <div className="flex items-start gap-3">
+                <svg className="w-6 h-6 text-amber-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <div>
+                  <p className="text-white font-medium">Up to 5 team members</p>
+                  <p className="text-sm text-slate-400">Collaborate with your policy team</p>
+                </div>
+              </div>
+
               <div className="flex items-start gap-3">
                 <svg className="w-6 h-6 text-amber-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -44,8 +55,8 @@ export default function Pricing() {
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <div>
-                  <p className="text-white font-medium">Daily email alerts</p>
-                  <p className="text-sm text-slate-400">Delivered to your inbox every morning</p>
+                  <p className="text-white font-medium">Dashboard + email alerts</p>
+                  <p className="text-sm text-slate-400">Browse bills online or get daily emails</p>
                 </div>
               </div>
 
@@ -54,8 +65,8 @@ export default function Pricing() {
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <div>
-                  <p className="text-white font-medium">Keyword matching</p>
-                  <p className="text-sm text-slate-400">Set unlimited custom keywords</p>
+                  <p className="text-white font-medium">50 keywords</p>
+                  <p className="text-sm text-slate-400">Custom search terms for your issues</p>
                 </div>
               </div>
 
@@ -78,16 +89,6 @@ export default function Pricing() {
                   <p className="text-sm text-slate-400">No credit card required</p>
                 </div>
               </div>
-
-              <div className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-amber-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <div>
-                  <p className="text-white font-medium">Cancel anytime</p>
-                  <p className="text-sm text-slate-400">No long-term contracts</p>
-                </div>
-              </div>
             </div>
 
             {/* CTA */}
@@ -100,6 +101,10 @@ export default function Pricing() {
 
             <p className="text-center text-sm text-slate-400 mt-4">
               Be among the first 20 customers and get <span className="text-amber-500 font-semibold">50% off for 6 months</span>
+            </p>
+            
+            <p className="text-center text-xs text-slate-500 mt-3">
+              Need more than 5 users? <a href="mailto:support@getpolidata.com" className="text-amber-500 hover:underline">Contact us</a>
             </p>
           </div>
         </div>
