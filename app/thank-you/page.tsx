@@ -1,7 +1,29 @@
+'use client';
+
+import { useEffect } from 'react';
 import Image from "next/image";
 import Link from "next/link";
 
 export default function ThankYouPage() {
+  useEffect(() => {
+    // Track conversion in Google Analytics
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'conversion', {
+        'send_to': 'G-9LEH2YD3K4',
+        'event_category': 'waitlist',
+        'event_label': 'signup_complete',
+        'value': 1
+      });
+
+      // Also track as form_submit for Tally integration
+      window.gtag('event', 'form_submit', {
+        'event_category': 'waitlist',
+        'event_label': 'tally_form',
+        'value': 1
+      });
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white flex items-center justify-center px-4">
       <div className="max-w-2xl mx-auto text-center">
@@ -86,4 +108,15 @@ export default function ThankYouPage() {
       </div>
     </div>
   );
+}
+
+// TypeScript definition for gtag
+declare global {
+  interface Window {
+    gtag?: (
+      command: string,
+      targetId: string | Date,
+      config?: Record<string, unknown>
+    ) => void;
+  }
 }
