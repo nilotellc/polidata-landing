@@ -39,7 +39,7 @@ export default function WaitlistForm() {
         {/* Tally Form Embed */}
         <div className="bg-white p-8 rounded-lg shadow-lg border border-slate-200">
           <iframe
-            data-tally-src="https://tally.so/embed/ob2ZRb?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            data-tally-src="https://tally.so/embed/ob2ZRb?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&formEventsForwarding=1"
             loading="lazy"
             width="100%"
             height="694"
