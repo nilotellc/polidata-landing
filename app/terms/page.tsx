@@ -88,15 +88,14 @@ export default function TermsOfService() {
             
             <h3 className="text-xl font-semibold text-slate-800 mb-3">4.1 Pricing Plans</h3>
             <p className="text-slate-700 mb-4">
-              PoliData offers monthly subscription plans:
+              PoliData offers monthly subscription plans for advocacy teams (minimum 2 users):
             </p>
             <ul className="list-disc pl-6 text-slate-700 mb-4 space-y-2">
-              <li><strong>Starter:</strong> $79/month (up to 25 tracked bills)</li>
-              <li><strong>Team:</strong> $149/month (up to 100 tracked bills, team sharing)</li>
-              <li><strong>Pro:</strong> $299/month (unlimited tracked bills, priority support)</li>
+              <li><strong>Team:</strong> $149/month (2-5 users, 50 keywords)</li>
+              <li><strong>Pro:</strong> $299/month (6-15 users, 200 keywords)</li>
             </ul>
             <p className="text-slate-700 mb-4">
-              We reserve the right to change pricing with 30 days&apos; notice. Existing subscribers will be grandfathered at their current price for 12 months.
+              All plans require a minimum of 2 users. Single-user accounts are not available. We reserve the right to change pricing with 30 days&apos; notice. Existing subscribers will be grandfathered at their current price for 12 months.
             </p>
 
             <h3 className="text-xl font-semibold text-slate-800 mb-3">4.2 Billing and Payment</h3>
