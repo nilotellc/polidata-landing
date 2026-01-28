@@ -105,7 +105,7 @@ export default function TermsOfService() {
               <li><strong>Recurring Billing:</strong> Subscriptions automatically renew monthly unless canceled.</li>
               <li><strong>Billing Cycle:</strong> You will be charged on the same day each month (e.g., if you subscribe on Jan 15, you&apos;ll be charged on Feb 15, Mar 15, etc.).</li>
               <li><strong>Failed Payments:</strong> If payment fails, we will retry up to 3 times. After 3 failures, your account will be suspended until payment is updated.</li>
-              <li><strong>Taxes:</strong> All prices are inclusive of applicable taxes. The price you see is the price you pay.</li>
+              <li><strong>Taxes:</strong> Prices exclude applicable sales tax and VAT. Taxes will be calculated and added at checkout based on your location, as required by law.</li>
             </ul>
 
             <h3 className="text-xl font-semibold text-slate-800 mb-3">4.3 Cancellation and Refunds</h3>
