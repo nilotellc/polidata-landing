@@ -79,7 +79,7 @@ export default function LegislatorsPreviewPage() {
           </p>
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6 max-w-3xl mx-auto">
             <p className="text-sm text-blue-900 text-center">
-              💡 <strong>Try it:</strong> Click on the first legislator card (Sen. Dianne Feinstein) to see an individual profile page
+              💡 <strong>Try it:</strong> Click on Rep. Nancy Pelosi's card below to see an individual profile page
             </p>
           </div>
 
@@ -166,7 +166,7 @@ export default function LegislatorsPreviewPage() {
               {/* Legislator grid */}
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {/* Legislator 1 */}
-                <Link href="/preview/legislator" className="border border-slate-200 rounded-lg p-4 hover:shadow-md transition bg-white block">
+                <div className="border border-slate-200 rounded-lg p-4 hover:shadow-md transition bg-white">
                   <div className="flex gap-3 mb-3">
                     <div className="w-16 h-16 bg-slate-200 rounded-full flex items-center justify-center text-slate-600 flex-shrink-0">
                       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -202,7 +202,7 @@ export default function LegislatorsPreviewPage() {
                       <a href="#" className="text-blue-600 hover:underline truncate">feinstein.senate.gov</a>
                     </div>
                   </div>
-                </Link>
+                </div>
 
                 {/* Legislator 2 */}
                 <div className="border border-slate-200 rounded-lg p-4 hover:shadow-md transition bg-white">
@@ -244,7 +244,7 @@ export default function LegislatorsPreviewPage() {
                 </div>
 
                 {/* Legislator 3 */}
-                <div className="border border-slate-200 rounded-lg p-4 hover:shadow-md transition bg-white">
+                <Link href="/preview/legislator" className="border border-slate-200 rounded-lg p-4 hover:shadow-md transition bg-white block">
                   <div className="flex gap-3 mb-3">
                     <div className="w-16 h-16 bg-slate-200 rounded-full flex items-center justify-center text-slate-600 flex-shrink-0">
                       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -280,7 +280,7 @@ export default function LegislatorsPreviewPage() {
                       <a href="#" className="text-blue-600 hover:underline truncate">pelosi.house.gov</a>
                     </div>
                   </div>
-                </div>
+                </Link>
 
                 {/* Legislator 4 */}
                 <div className="border border-slate-200 rounded-lg p-4 hover:shadow-md transition bg-white">
