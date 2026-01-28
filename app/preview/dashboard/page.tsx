@@ -351,7 +351,7 @@ export default function DashboardPreviewPage() {
                   One-Click Tracking
                 </h3>
                 <p className="text-slate-600">
-                  Track up to 200 bills per account (Starter plan). Get notified when status changes. Share tracked bills with your team members.
+                  Track unlimited bills per account. Get notified when status changes. Share tracked bills with your team members.
                 </p>
               </div>
             </div>

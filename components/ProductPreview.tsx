@@ -37,7 +37,7 @@ export default function ProductPreview() {
               </h3>
             </div>
             <p className="text-slate-700 mb-4">
-              Search, filter, and browse federal legislation. Track up to 200 bills with your team.
+              Search, filter, and browse federal legislation. Track unlimited bills with your team.
             </p>
             <div className="flex items-center text-amber-700 font-semibold group-hover:gap-2 transition-all">
               <span>View Mockup</span>

@@ -61,7 +61,7 @@ export default function PreviewOverviewPage() {
                   Bill Tracking Dashboard
                 </h3>
                 <p className="text-slate-600 mb-4">
-                  Search, filter, and browse federal legislation. Track up to 200 bills with your team.
+                  Search, filter, and browse federal legislation. Track unlimited bills with your team.
                 </p>
                 <div className="flex items-center text-amber-600 font-semibold group-hover:gap-2 transition-all">
                   <span>See Full Preview</span>
@@ -229,10 +229,11 @@ export default function PreviewOverviewPage() {
               <div className="text-3xl font-bold text-slate-900 mb-4">
                 $79<span className="text-lg font-normal text-slate-600">/month</span>
               </div>
-              <p className="text-slate-600 text-sm mb-4">Perfect for small teams</p>
+              <p className="text-slate-600 text-sm mb-4">Perfect for solo advocates</p>
               <ul className="text-sm text-slate-600 space-y-2 text-left">
-                <li>✓ 1-3 users</li>
-                <li>✓ Track up to 50 bills</li>
+                <li>✓ 1 user</li>
+                <li>✓ 25 keywords</li>
+                <li>✓ Unlimited bill tracking</li>
                 <li>✓ Daily email alerts</li>
                 <li>✓ Legislator directory</li>
               </ul>
@@ -247,10 +248,11 @@ export default function PreviewOverviewPage() {
               <div className="text-3xl font-bold text-slate-900 mb-4">
                 $149<span className="text-lg font-normal text-slate-600">/month</span>
               </div>
-              <p className="text-slate-600 text-sm mb-4">For growing teams</p>
+              <p className="text-slate-600 text-sm mb-4">Ideal for small teams</p>
               <ul className="text-sm text-slate-600 space-y-2 text-left">
-                <li>✓ 4-10 users</li>
-                <li>✓ Track up to 150 bills</li>
+                <li>✓ Up to 5 users</li>
+                <li>✓ 50 keywords</li>
+                <li>✓ Unlimited bill tracking</li>
                 <li>✓ Daily email alerts</li>
                 <li>✓ Legislator directory</li>
               </ul>
@@ -262,10 +264,11 @@ export default function PreviewOverviewPage() {
               <div className="text-3xl font-bold text-slate-900 mb-4">
                 $299<span className="text-lg font-normal text-slate-600">/month</span>
               </div>
-              <p className="text-slate-600 text-sm mb-4">For larger teams</p>
+              <p className="text-slate-600 text-sm mb-4">For larger organizations</p>
               <ul className="text-sm text-slate-600 space-y-2 text-left">
-                <li>✓ 11-15 users</li>
-                <li>✓ Track up to 200 bills</li>
+                <li>✓ Up to 15 users</li>
+                <li>✓ 200 keywords</li>
+                <li>✓ Unlimited bill tracking</li>
                 <li>✓ Daily email alerts</li>
                 <li>✓ Legislator directory</li>
               </ul>
