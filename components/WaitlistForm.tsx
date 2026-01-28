@@ -49,6 +49,18 @@ export default function WaitlistForm() {
             title="Join the Waitlist"
             className="w-full"
           ></iframe>
+          
+          {/* Privacy Notice */}
+          <p className="text-sm text-slate-600 mt-6 text-center">
+            By signing up, you agree to our{' '}
+            <a href="/privacy" className="text-amber-600 hover:text-amber-700 underline">
+              Privacy Policy
+            </a>{' '}
+            and{' '}
+            <a href="/terms" className="text-amber-600 hover:text-amber-700 underline">
+              Terms of Service
+            </a>.
+          </p>
         </div>
       </div>
     </section>
