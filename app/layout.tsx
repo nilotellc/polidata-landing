@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "PoliData - Track Federal Legislation in Real-Time",
-  description: "Stop spending 2 hours every day checking Congress.gov. Get automated bill tracking and alerts for $100/month.",
+  description: "Stop spending 2 hours every day checking Congress.gov. Get automated bill tracking and alerts starting at $79/month.",
   keywords: ["bill tracking", "legislative tracking", "congress", "advocacy", "government affairs"],
   icons: {
     icon: '/logo.svg',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "PoliData - Track Federal Legislation in Real-Time",
-    description: "Automated bill tracking for small advocacy teams. $100/month.",
+    description: "Automated bill tracking for small advocacy teams. Starting at $79/month.",
     type: "website",
     url: "https://getpolidata.com",
   },

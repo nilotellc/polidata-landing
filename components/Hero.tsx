@@ -31,7 +31,7 @@ export default function Hero() {
           
           <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
             Stop spending 2 hours every day checking Congress.gov. <br />
-            Get automated alerts for <span className="text-amber-500 font-semibold">$100/month</span>.
+            Get automated alerts <span className="text-amber-500 font-semibold">starting at $79/month</span>.
           </p>
 
           {/* CTA Buttons */}

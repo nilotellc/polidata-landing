@@ -4,7 +4,7 @@ export default function Solution() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">
-            Automated Bill Tracking for <span className="text-amber-600">$100/month</span>
+            Automated Bill Tracking <span className="text-amber-600">starting at $79/month</span>
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             PoliData monitors Congress.gov 24/7 and sends you daily alerts when relevant bills are introduced or updated.
@@ -107,7 +107,7 @@ export default function Solution() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-1">•</span>
-                  <span>Pay only $100/month ($1,200/year)</span>
+                  <span>Starting at $79/month</span>
                 </li>
               </ul>
             </div>
