@@ -168,14 +168,17 @@ export default function LegislatorDetailPage() {
                   <button className="pb-3 border-b-2 border-amber-600 text-amber-600 font-semibold text-sm">
                     Recent Bills Sponsored
                   </button>
-                  <button className="pb-3 border-b-2 border-transparent text-slate-600 hover:text-slate-900 font-semibold text-sm">
+                  <button className="pb-3 border-b-2 border-transparent text-slate-400 font-semibold text-sm relative cursor-not-allowed">
                     Committee Memberships
+                    <span className="absolute -top-1 -right-12 bg-slate-200 text-slate-600 text-xs px-2 py-0.5 rounded">v2</span>
                   </button>
-                  <button className="pb-3 border-b-2 border-transparent text-slate-600 hover:text-slate-900 font-semibold text-sm">
+                  <button className="pb-3 border-b-2 border-transparent text-slate-400 font-semibold text-sm relative cursor-not-allowed">
                     Recent Votes
+                    <span className="absolute -top-1 -right-12 bg-slate-200 text-slate-600 text-xs px-2 py-0.5 rounded">v2</span>
                   </button>
-                  <button className="pb-3 border-b-2 border-transparent text-slate-600 hover:text-slate-900 font-semibold text-sm">
+                  <button className="pb-3 border-b-2 border-transparent text-slate-400 font-semibold text-sm relative cursor-not-allowed">
                     Contact History
+                    <span className="absolute -top-1 -right-12 bg-slate-200 text-slate-600 text-xs px-2 py-0.5 rounded">v2</span>
                   </button>
                 </div>
               </div>
@@ -329,8 +332,9 @@ export default function LegislatorDetailPage() {
                 </div>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                <h3 className="text-lg font-semibold text-slate-900 mb-2 flex items-center gap-2">
                   Committee Memberships
+                  <span className="bg-slate-200 text-slate-600 text-xs px-2 py-0.5 rounded font-normal">Coming in v2</span>
                 </h3>
                 <p className="text-slate-600">
                   Which committees they sit on (Education, Foreign Affairs, etc.). Understand their areas of influence.
@@ -345,8 +349,9 @@ export default function LegislatorDetailPage() {
                 </div>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                <h3 className="text-lg font-semibold text-slate-900 mb-2 flex items-center gap-2">
                   Recent Voting Record
+                  <span className="bg-slate-200 text-slate-600 text-xs px-2 py-0.5 rounded font-normal">Coming in v2</span>
                 </h3>
                 <p className="text-slate-600">
                   See how they voted on recent bills. Track their voting patterns on issues you care about.
@@ -361,8 +366,9 @@ export default function LegislatorDetailPage() {
                 </div>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                <h3 className="text-lg font-semibold text-slate-900 mb-2 flex items-center gap-2">
                   Contact History (Team Feature)
+                  <span className="bg-slate-200 text-slate-600 text-xs px-2 py-0.5 rounded font-normal">Coming in v2</span>
                 </h3>
                 <p className="text-slate-600">
                   Log when your team has reached out to them. Track meeting notes, email threads, and call logs.
