@@ -57,7 +57,8 @@ export default function PrivacyPolicy() {
               When you visit our website, we automatically collect certain information:
             </p>
             <ul className="list-disc pl-6 text-slate-700 mb-4 space-y-2">
-              <li><strong>Analytics Data:</strong> We use Plausible Analytics (privacy-focused, GDPR-compliant) to collect anonymized usage data: page views, referrers, country, device type. No cookies, no personal data tracking.</li>
+              <li><strong>Analytics Data:</strong> We use Google Analytics to collect usage data: page views, referrers, country, device type, traffic sources. This data helps us understand how visitors use our site and improve our service.</li>
+              <li><strong>Advertising:</strong> We use Google Ads for marketing campaigns. Google may use cookies to track ad performance and conversions.</li>
               <li><strong>Log Data:</strong> IP address, browser type, pages visited, time/date stamps (stored temporarily for security and performance)</li>
             </ul>
 
@@ -102,7 +103,8 @@ export default function PrivacyPolicy() {
               <li><strong>Stripe:</strong> Payment processing (subject to <a href="https://stripe.com/privacy" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:text-amber-700">Stripe&apos;s Privacy Policy</a>)</li>
               <li><strong>Supabase:</strong> Database hosting (encrypted storage)</li>
               <li><strong>Render:</strong> Application hosting infrastructure</li>
-              <li><strong>Plausible Analytics:</strong> Privacy-focused analytics (no personal data shared)</li>
+              <li><strong>Google Analytics:</strong> Usage analytics and ad campaign tracking</li>
+              <li><strong>Google Ads:</strong> Marketing campaigns (subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:text-amber-700">Google&apos;s Privacy Policy</a>)</li>
             </ul>
 
             <h3 className="text-xl font-semibold text-slate-800 mb-3">4.2 Legal Requirements</h3>
