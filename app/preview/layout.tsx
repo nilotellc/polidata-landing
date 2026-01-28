@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function PreviewLayout({
   children,
@@ -11,7 +12,12 @@ export default function PreviewLayout({
       <header className="bg-slate-900 text-white py-4 px-6 border-b border-slate-800">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-amber-500 rounded"></div>
+            <Image
+              src="/logo.svg"
+              alt="PoliData Logo"
+              width={32}
+              height={32}
+            />
             <Link href="/" className="text-xl font-bold hover:text-amber-500 transition">
               PoliData
             </Link>

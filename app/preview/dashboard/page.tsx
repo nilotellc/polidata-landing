@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function DashboardPreviewPage() {
   return (
@@ -7,7 +8,7 @@ export default function DashboardPreviewPage() {
       <section className="bg-white border-b border-slate-200 py-12 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-            📊 Bill Tracking Dashboard
+            Bill Tracking Dashboard
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
             Search, filter, and browse federal legislation in one clean interface. Track bill status changes in real-time.
@@ -82,13 +83,27 @@ export default function DashboardPreviewPage() {
             {/* Dashboard header */}
             <div className="bg-slate-900 text-white p-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 bg-amber-500 rounded"></div>
+                <Image
+                  src="/logo.svg"
+                  alt="PoliData Logo"
+                  width={32}
+                  height={32}
+                />
                 <h2 className="text-lg font-bold">PoliData Dashboard</h2>
               </div>
-              <div className="flex gap-4 text-sm">
-                <button className="text-amber-500 font-semibold">Dashboard</button>
-                <button className="hover:text-amber-500 transition">Legislators</button>
-                <button className="hover:text-amber-500 transition">Settings</button>
+              <div className="flex items-center gap-6">
+                <nav className="flex gap-4 text-sm">
+                  <button className="text-amber-500 font-semibold">Dashboard</button>
+                  <button className="hover:text-amber-500 transition">Legislators</button>
+                  <button className="hover:text-amber-500 transition">Settings</button>
+                </nav>
+                <div className="flex items-center gap-2 border-l border-slate-700 pl-4">
+                  <div className="w-8 h-8 bg-slate-700 rounded-full flex items-center justify-center">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    </svg>
+                  </div>
+                </div>
               </div>
             </div>
 
