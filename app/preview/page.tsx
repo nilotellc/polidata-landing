@@ -151,7 +151,7 @@ export default function PreviewOverviewPage() {
                   Affordable Pricing
                 </h3>
                 <p className="text-slate-600">
-                  $79-299/month (not $20k/year like Quorum). Built for small teams with real budgets.
+                  $149-299/month (not $20k/year like Quorum). Built for small teams with real budgets.
                 </p>
               </div>
             </div>
@@ -220,25 +220,9 @@ export default function PreviewOverviewPage() {
             Simple, Transparent Pricing
           </h2>
           <p className="text-lg text-slate-600 mb-8">
-            Choose the plan that fits your team size. All plans include full access to dashboard, email alerts, and legislator directory.
+            Built for advocacy teams (minimum 2 users). All plans include full access to dashboard, email alerts, and legislator directory.
           </p>
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
-            {/* Starter */}
-            <div className="bg-white rounded-lg border-2 border-slate-200 p-6">
-              <h3 className="text-xl font-bold text-slate-900 mb-2">Starter</h3>
-              <div className="text-3xl font-bold text-slate-900 mb-4">
-                $79<span className="text-lg font-normal text-slate-600">/month</span>
-              </div>
-              <p className="text-slate-600 text-sm mb-4">Perfect for solo advocates</p>
-              <ul className="text-sm text-slate-600 space-y-2 text-left">
-                <li>✓ 1 user</li>
-                <li>✓ 25 keywords</li>
-                <li>✓ Unlimited bill tracking</li>
-                <li>✓ Daily email alerts</li>
-                <li>✓ Legislator directory</li>
-              </ul>
-            </div>
-
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
             {/* Team (popular) */}
             <div className="bg-white rounded-lg border-2 border-amber-500 p-6 relative">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-semibold">
@@ -250,7 +234,7 @@ export default function PreviewOverviewPage() {
               </div>
               <p className="text-slate-600 text-sm mb-4">Ideal for small teams</p>
               <ul className="text-sm text-slate-600 space-y-2 text-left">
-                <li>✓ Up to 5 users</li>
+                <li>✓ 2-5 users</li>
                 <li>✓ 50 keywords</li>
                 <li>✓ Unlimited bill tracking</li>
                 <li>✓ Daily email alerts</li>
@@ -266,7 +250,7 @@ export default function PreviewOverviewPage() {
               </div>
               <p className="text-slate-600 text-sm mb-4">For larger organizations</p>
               <ul className="text-sm text-slate-600 space-y-2 text-left">
-                <li>✓ Up to 15 users</li>
+                <li>✓ 6-15 users</li>
                 <li>✓ 200 keywords</li>
                 <li>✓ Unlimited bill tracking</li>
                 <li>✓ Daily email alerts</li>

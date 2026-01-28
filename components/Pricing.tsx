@@ -1,12 +1,12 @@
 export default function Pricing() {
   const tiers = [
     {
-      name: 'Starter',
-      price: 79,
-      users: '1 user',
-      keywords: '25 keywords',
-      badge: null,
-      description: 'Perfect for solo advocates',
+      name: 'Team',
+      price: 149,
+      users: '2-5 users',
+      keywords: '50 keywords',
+      badge: 'Most Popular',
+      description: 'Ideal for small advocacy teams',
       features: [
         'Federal bill tracking',
         'Legislator directory (535 members)',
@@ -14,18 +14,6 @@ export default function Pricing() {
         '"Find Your Rep" tool',
         'Email alerts',
         'Dashboard access',
-        '14-day free trial'
-      ]
-    },
-    {
-      name: 'Team',
-      price: 149,
-      users: 'Up to 5 users',
-      keywords: '50 keywords',
-      badge: 'Most Popular',
-      description: 'Ideal for small advocacy teams',
-      features: [
-        'Everything in Starter',
         'Team management (invite/remove)',
         'Shared keyword tracking',
         'Unlimited bill tracking',
@@ -36,14 +24,12 @@ export default function Pricing() {
     {
       name: 'Pro',
       price: 299,
-      users: 'Up to 15 users',
+      users: '6-15 users',
       keywords: '200 keywords',
       badge: null,
       description: 'For larger organizations',
       features: [
         'Everything in Team',
-        'Slack integration (coming soon)',
-        'State tracking - 1 state (coming soon)',
         'Priority support',
         'Dedicated onboarding',
         '14-day free trial'
@@ -59,14 +45,14 @@ export default function Pricing() {
             Simple, Transparent Pricing
           </h2>
           <p className="text-xl text-slate-600 mb-2">
-            Choose the plan that fits your team
+            Built for advocacy teams (minimum 2 users)
           </p>
           <p className="text-sm text-slate-500">
             All plans include 14-day free trial • No credit card required • Cancel anytime
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {tiers.map((tier) => (
             <div
               key={tier.name}
