@@ -7,12 +7,60 @@ export default function Solution() {
             Automated Bill Tracking <span className="text-amber-600">starting at $79/month</span>
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            PoliData monitors Congress.gov 24/7 and sends you daily alerts when relevant bills are introduced or updated.
+            Dashboard + Email Alerts + Legislator Directory. Track federal bills and find your representatives&apos; contact info—all in one place.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 mb-12">
           {/* Feature 1 */}
+          <div className="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow">
+            <div className="w-12 h-12 bg-gradient-to-r from-amber-500 to-amber-600 rounded-lg flex items-center justify-center mb-4">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+            </div>
+            <h3 className="text-xl font-semibold text-slate-900 mb-2">
+              Bill Tracking Dashboard
+            </h3>
+            <p className="text-slate-600">
+              Browse, search, and filter federal legislation in real-time. Track bill status changes and get daily email alerts.
+            </p>
+          </div>
+
+          {/* Feature 2 */}
+          <div className="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow">
+            <div className="w-12 h-12 bg-gradient-to-r from-amber-500 to-amber-600 rounded-lg flex items-center justify-center mb-4">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+            </div>
+            <h3 className="text-xl font-semibold text-slate-900 mb-2">
+              Legislator Directory
+            </h3>
+            <p className="text-slate-600">
+              Access contact info for all 535 members of Congress. Phone numbers, addresses, websites, and a "Find Your Rep" tool by ZIP code.
+            </p>
+          </div>
+
+          {/* Feature 3 */}
+          <div className="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow">
+            <div className="w-12 h-12 bg-gradient-to-r from-amber-500 to-amber-600 rounded-lg flex items-center justify-center mb-4">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+            </div>
+            <h3 className="text-xl font-semibold text-slate-900 mb-2">
+              Team Collaboration
+            </h3>
+            <p className="text-slate-600">
+              Invite your team (1-15 users depending on plan). Share keyword tracking and bill lists across your organization.
+            </p>
+          </div>
+        </div>
+
+        {/* Additional features row */}
+        <div className="grid md:grid-cols-3 gap-8">
+          {/* Feature 4 */}
           <div className="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow">
             <div className="w-12 h-12 bg-gradient-to-r from-amber-500 to-amber-600 rounded-lg flex items-center justify-center mb-4">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -28,7 +76,7 @@ export default function Solution() {
             </p>
           </div>
 
-          {/* Feature 2 */}
+          {/* Feature 5 */}
           <div className="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow">
             <div className="w-12 h-12 bg-gradient-to-r from-amber-500 to-amber-600 rounded-lg flex items-center justify-center mb-4">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -43,7 +91,7 @@ export default function Solution() {
             </p>
           </div>
 
-          {/* Feature 3 */}
+          {/* Feature 6 */}
           <div className="bg-white p-8 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow">
             <div className="w-12 h-12 bg-gradient-to-r from-amber-500 to-amber-600 rounded-lg flex items-center justify-center mb-4">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -54,7 +102,7 @@ export default function Solution() {
               Keyword Matching
             </h3>
             <p className="text-slate-600">
-              Set unlimited keywords to track the topics that matter to your organization (education, healthcare, climate, etc.).
+              Set up to 200 keywords to track the topics that matter to your organization (education, healthcare, climate, etc.).
             </p>
           </div>
         </div>
@@ -95,15 +143,15 @@ export default function Solution() {
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-1">•</span>
-                  <span>Save 10+ hours per week</span>
+                  <span>Web dashboard + email alerts</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-1">•</span>
-                  <span>Get daily alerts in your inbox</span>
+                  <span>Legislator directory (all 535 members)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-1">•</span>
-                  <span>Never miss relevant bills again</span>
+                  <span>Team collaboration (1-15 users)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-1">•</span>
