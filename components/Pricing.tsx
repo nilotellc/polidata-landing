@@ -30,7 +30,10 @@ export default function Pricing() {
       description: 'For larger organizations',
       features: [
         'Everything in Team',
-        'Priority support',
+        'State legislature tracking (Coming Soon)',
+        'Committee tracking (Coming Soon)',
+        'Hearing alerts (Coming Soon)',
+        'Priority email support',
         'Dedicated onboarding',
         '14-day free trial'
       ]
