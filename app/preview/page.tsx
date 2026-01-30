@@ -232,13 +232,21 @@ export default function PreviewOverviewPage() {
               <div className="text-3xl font-bold text-slate-900 mb-4">
                 $149<span className="text-lg font-normal text-slate-600">/month</span>
               </div>
-              <p className="text-slate-600 text-sm mb-4">Ideal for small teams</p>
+              <p className="text-slate-600 text-sm mb-4">Ideal for small advocacy teams</p>
               <ul className="text-sm text-slate-600 space-y-2 text-left">
-                <li>✓ 2-5 users</li>
+                <li>✓ Up to 5 users</li>
                 <li>✓ 50 keywords</li>
-                <li>✓ Unlimited bill tracking</li>
+                <li>✓ Federal bill tracking</li>
+                <li>✓ Legislator directory (all 535 members)</li>
+                <li>✓ Contact info</li>
+                <li>✓ "Find Your Rep" tool</li>
                 <li>✓ Daily email alerts</li>
-                <li>✓ Legislator directory</li>
+                <li>✓ Dashboard access</li>
+                <li>✓ Team management (invite/remove)</li>
+                <li>✓ Shared keyword tracking</li>
+                <li>✓ Unlimited bill tracking</li>
+                <li>✓ Email support</li>
+                <li>✓ 14-day free trial</li>
               </ul>
             </div>
 
@@ -248,13 +256,14 @@ export default function PreviewOverviewPage() {
               <div className="text-3xl font-bold text-slate-900 mb-4">
                 $299<span className="text-lg font-normal text-slate-600">/month</span>
               </div>
-              <p className="text-slate-600 text-sm mb-4">For larger organizations</p>
+              <p className="text-slate-600 text-sm mb-4">For larger organizations needing more scale</p>
               <ul className="text-sm text-slate-600 space-y-2 text-left">
-                <li>✓ 6-15 users</li>
+                <li>✓ Everything in Team</li>
+                <li>✓ Up to 15 users</li>
                 <li>✓ 200 keywords</li>
-                <li>✓ Unlimited bill tracking</li>
-                <li>✓ Daily email alerts</li>
-                <li>✓ Legislator directory</li>
+                <li>✓ Priority email support</li>
+                <li>✓ Dedicated onboarding</li>
+                <li>✓ 14-day free trial</li>
               </ul>
             </div>
           </div>

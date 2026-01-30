@@ -53,7 +53,7 @@ export default function Solution() {
               Team Collaboration
             </h3>
             <p className="text-slate-600">
-              Invite your team (2-15 users depending on plan). Share keyword tracking and bill lists across your organization.
+              Invite your team (up to 5 users on Team, up to 15 users on Pro). Share keyword tracking and bill lists across your organization.
             </p>
           </div>
         </div>
@@ -151,7 +151,7 @@ export default function Solution() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-1">•</span>
-                  <span>Team collaboration (2-15 users)</span>
+                  <span>Team collaboration (up to 5 users on Team, up to 15 users on Pro)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-1">•</span>

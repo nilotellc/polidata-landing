@@ -1,38 +1,39 @@
+import React from 'react';
+
 export default function Pricing() {
   const tiers = [
     {
       name: 'Team',
       price: 149,
-      users: '2-5 users',
+      users: 'Up to 5 users',
       keywords: '50 keywords',
       badge: 'Most Popular',
       description: 'Ideal for small advocacy teams',
       features: [
         'Federal bill tracking',
-        'Legislator directory (535 members)',
+        'Legislator directory (all 535 members)',
         'Contact information (phone, address, website)',
         '"Find Your Rep" tool',
-        'Email alerts',
+        'Daily email alerts',
         'Dashboard access',
         'Team management (invite/remove)',
         'Shared keyword tracking',
         'Unlimited bill tracking',
-        'Priority email support',
+        'Email support',
         '14-day free trial'
       ]
     },
     {
       name: 'Pro',
       price: 299,
-      users: '6-15 users',
+      users: 'Up to 15 users',
       keywords: '200 keywords',
       badge: null,
-      description: 'For larger organizations',
+      description: 'For larger organizations needing more scale',
       features: [
         'Everything in Team',
-        'State legislature tracking (Coming Soon)',
-        'Committee tracking (Coming Soon)',
-        'Hearing alerts (Coming Soon)',
+        'More users (15 total)',
+        'More keywords (200 total)',
         'Priority email support',
         'Dedicated onboarding',
         '14-day free trial'

@@ -91,8 +91,8 @@ export default function TermsOfService() {
               PoliData offers monthly subscription plans for advocacy teams (minimum 2 users):
             </p>
             <ul className="list-disc pl-6 text-slate-700 mb-4 space-y-2">
-              <li><strong>Team:</strong> $149/month (2-5 users, 50 keywords)</li>
-              <li><strong>Pro:</strong> $299/month (6-15 users, 200 keywords)</li>
+              <li><strong>Team:</strong> $149/month (up to 5 users, 50 keywords, federal bill tracking, legislator directory, daily email alerts, dashboard access, email support)</li>
+              <li><strong>Pro:</strong> $299/month (up to 15 users, 200 keywords, everything in Team, priority email support, dedicated onboarding)</li>
             </ul>
             <p className="text-slate-700 mb-4">
               All plans require a minimum of 2 users. Single-user accounts are not available. We reserve the right to change pricing with 30 days&apos; notice. Existing subscribers will be grandfathered at their current price for 12 months.
