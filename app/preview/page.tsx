@@ -40,7 +40,7 @@ export default function PreviewOverviewPage() {
             Three Core Features
           </h2>
           <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">
-            Click any feature below to see a detailed mockup of what your team will get.
+            Click any feature below to see a detailed preview of what your team will get.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
